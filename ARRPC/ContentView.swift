@@ -1,24 +1,18 @@
-//
-//  ContentView.swift
-//  ARRPC
-//
-//  Created by Lakshay Gupta on 14/01/25.
-//
-
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+struct ARViewControllerRepresentable: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> ARViewController {
+        return ARViewController()
+    }
+    
+    func updateUIViewController(_ uiViewController: ARViewController, context: Context) {
+        // Update the view controller if needed
     }
 }
 
-#Preview {
-    ContentView()
-}
+struct ContentView: View {
+    var body: some View {
+        ARViewControllerRepresentable()
+            .ignoresSafeArea()
+    }
+} 

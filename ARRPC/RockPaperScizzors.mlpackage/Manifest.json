@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "6292EAAD-3772-4A0E-B803-C7379FB6DA4B": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "944ABD98-951F-4CE0-B0B4-CCF174908700": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "97075E68-181F-4704-9606-2B90B77929F0": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "RockPaperScizzors.mlmodel",
+            "path": "com.apple.CoreML/RockPaperScizzors.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "97075E68-181F-4704-9606-2B90B77929F0"
+}
